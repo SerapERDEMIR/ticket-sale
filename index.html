@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <!--sinema perdesi-->
+    <div class="container">
+            <div class="screen">
+             <img src="/img/3.jpg" />
+            </div>
+        <!--koltuk alanı-->
+        <!--koltuk sırası1-->
+        <div class="seatRow">
+            <div class="seat reserved"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat selected"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat selected"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+        </div>
+        <!--koltuk sırası2-->
+        <div class="seatRow">
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+        </div>
+    <!--koltuk sırası3-->
+    <div class="seatRow">
+        <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+    </div>
+    <!--koltuk sırası4-->
+    <div class="seatRow">
+        <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+    </div>
+    <!--koltuk sırası5-->
+    <div class="seatRow">
+        <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+    </div>
+ </div>
+<!--film alanı-->
+
+<!--film seçim barı-->
+<div class="movie-list">
+    <select name="" id="movie">
+      <option  disabled>Film Seçiniz</option>
+      <option value="100">Film 1</option>
+      <option value="200">Film 2</option>
+      <option value="300">Film 3</option>
+    </select>
+  </div>
+
+<!--info alanı-->
+<ul class="info">
+    <li>
+        <div class="seat reserved"><i class="fa-solid fa-couch"></i></div>
+        <span>Reserve Koltuk</span>
+    </li>
+    <li>
+        <div class="seat selected"><i class="fa-solid fa-couch"></i></div>
+        <span>Seçili Koltuk</span>
+    </li>
+    <li>
+        <div class="seat"><i class="fa-solid fa-couch"></i></div>
+        <span>Boş Koltuk</span>
+    </li>
+</ul>
+
+<p class="infoText">
+    <span id="count"></span> koltuk için hesaplanan ücret <span id="amount"></span> TL
+  </p>
+
+  <script src="main.js"></script>
+</body>
+</html>
